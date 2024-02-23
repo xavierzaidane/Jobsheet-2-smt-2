@@ -11,5 +11,9 @@ public class Bukumain25 {
         bk1.terjual(5);
         bk1.gantiHarga(60000);
         bk1.tampilInformasi();
+
+        Bukumodif bk2 = new Bukumodif("Self Reward", "maheera Ayesha", 160, 29, 59000);
+        bk2.terjual(11);
+        bk2.tampilInformasi();
     }
 }
