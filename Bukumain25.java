@@ -9,15 +9,20 @@ public class Bukumain25 {
 
         bk1.tampilInformasi();
         bk1.terjual(5);
+        bk1.stok = bk1.stok-5;
         bk1.gantiHarga(60000);
         bk1.tampilInformasi();
+        System.out.println(bk1);
 
         Bukumodif bk2 = new Bukumodif("Self Reward", "maheera Ayesha", 160, 29, 59000);
-        bk2.terjual(11);
-        bk2.tampilInformasi();
+        bk1.terjual(11);
+        bk1.tampilInformasi();
+        System.out.println("Harga yang terjual = "+bk1.hitungHargaTotal(bk1.stok));
+        System.out.println("Diskon = "+bk1.hitungDiskon(bk1.stok));
+        System.out.println("Bayar = "+bk1.hitungHargaBayar(bk1.stok));
+         
+        
 
-        Bukumodif bukuXavier = new Bukumodif("The story of majid", "Erwan Majid", 170, 30, 100000);
-        bukuXavier.terjual(11);
-        bukuXavier.tampilInformasi();
+        
     }
 }
