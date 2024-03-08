@@ -20,7 +20,7 @@ public class Bukumain25 {
         System.out.println("Harga yang terjual = "+bk1.hitungHargaTotal(bk1.stok));
         System.out.println("Diskon = "+bk1.hitungDiskon(bk1.stok));
         System.out.println("Bayar = "+bk1.hitungHargaBayar(bk1.stok));
-         
+        
         
 
         
